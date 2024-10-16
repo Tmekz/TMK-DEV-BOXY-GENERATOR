@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="py-6 border-b-2 border-gray-200">
       <img
-        className="w-38 h-10 absolute left-6 sm:flex hidden"
+        className="w-38 h-10 absolute pl-6 sm:flex hidden"
         src={logo}
         alt="logo"
       />
@@ -12,7 +12,6 @@ const Header = () => {
         BOXY GENERATOR
       </h1>
     </div>
-    
   );
 };
 
